@@ -1,0 +1,104 @@
+
+
+header{
+  background-image: url(http://i1077.photobucket.com/albums/w462/ksingleton88/journey_zpsvm6wnjja.jpeg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.header{
+  text-align: center;
+  font-family: "Arial Black", Gadget, sans-serif;
+  color: #FFFFFF;
+  font-size: 75px;
+
+}
+
+.all-content{
+  color: #222222;
+  font-family: "open sans", "helvetica neue", sans-serif;
+}
+
+.intro{
+  text-align: center;
+  padding-top: 8%;
+  font-size: 35px;
+  color: #FFFFFF;
+}
+
+.subtitle{
+  text-align: left;
+  font-size: 3em;
+}
+
+.floated-content .content{
+  font-size: 25px;
+  display: inline-block;
+  margin-top: 100px;
+  width: 40%;
+  text-align: justify;
+  margin-right: 5%;
+  margin-left: 10%;
+}
+
+.floated-content .image{
+  display: inline-block;
+  width: 34%;
+  margin-left: 10%;
+}
+
+.image{
+  width: 100%;
+  padding-top: 4%;
+
+}
+
+.floated-content img{
+  width:100%;
+}
+
+.question-left{
+  text-align: left;
+  font-style: italic;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.question-right{
+  text-align: right;
+  font-style: italic;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.content-right{
+  text-align: right;
+}
+
+.footer{
+  color: #FFFFFF;
+  margin-top: 200px;
+  height: 12%; 
+  background-image: url(http://i1077.photobucket.com/albums/w462/ksingleton88/journey_zpsvm6wnjja.jpeg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.links{
+  padding-top: 15px;
+  text-align: center;
+  font-size: 20px;
+}
+
+a:link{color: #FFFFFF;
+text-decoration: none;
+} /*a normal, unvisited link*/
+a:visited{color: #FFFFFF;
+text-decoration: none;}/*- a link the user has visited*/
+a:hover{color: #FFFFFF;
+text-decoration: underline;font-style: italic;} /*- a link when the user mouses over it*/
+a:active{color: #FFFFFF;
+text-decoration: none;}/* - a link the moment it is clicked*/
