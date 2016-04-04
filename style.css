@@ -1,4 +1,7 @@
+@media expression{
+  /*css rules go here*/
 
+}
 
 header{
   background-image: url(http://i1077.photobucket.com/albums/w462/ksingleton88/journey_zpsvm6wnjja.jpeg);
@@ -59,28 +62,26 @@ header{
   width:100%;
 }
 
-.question-left{
+.floated-content-left .question,
+.floated-content-left .answer {
   text-align: left;
+}
+
+.question{
   font-style: italic;
   font-size: 30px;
   font-weight: 600;
 }
 
-.question-right{
-  text-align: right;
-  font-style: italic;
-  font-size: 30px;
-  font-weight: 600;
-}
-
-.content-right{
+.floated-content-right .question,
+.floated-content-right .answer {
   text-align: right;
 }
 
 .footer{
   color: #FFFFFF;
   margin-top: 200px;
-  height: 12%; 
+  height: 14%; 
   background-image: url(http://i1077.photobucket.com/albums/w462/ksingleton88/journey_zpsvm6wnjja.jpeg);
   background-repeat: no-repeat;
   background-position: bottom;
