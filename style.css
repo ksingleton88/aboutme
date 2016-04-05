@@ -1,7 +1,4 @@
-@media expression{
-  /*css rules go here*/
 
-}
 
 header{
   background-image: url(http://i1077.photobucket.com/albums/w462/ksingleton88/journey_zpsvm6wnjja.jpeg);
@@ -36,6 +33,7 @@ header{
   font-size: 3em;
 }
 
+
 .floated-content .content{
   font-size: 25px;
   display: inline-block;
@@ -57,6 +55,12 @@ header{
   padding-top: 4%;
 
 }
+
+/*@media (max-width: 500px){
+  .img{
+    display: none;
+  }
+}*/
 
 .floated-content img{
   width:100%;
